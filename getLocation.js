@@ -20,7 +20,7 @@ if (navigator) {
 
       console.log(typeof tweet);
       console.log(typeof author);
-      execPost('https://discord-mylocation.glitch.me/', {'lat': lat.toString(), 'lng': lng.toString(), 'author': author.toString(), 'tweet': tweet});
+      execPost('https://menhera-org.appspot.com/', {'lat': lat.toString(), 'lng': lng.toString(), 'author': author.toString(), 'tweet': tweet});
 
       function getParam(name, url) {
           if (!url) url = window.location.href;
